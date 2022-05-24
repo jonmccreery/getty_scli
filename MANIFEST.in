@@ -1,0 +1,2 @@
+recursive-include springboard/faces/puppet/skel *
+include version.txt

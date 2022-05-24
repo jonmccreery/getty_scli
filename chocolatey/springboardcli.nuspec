@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>springboardcli</id>
+    <version>0.1.2</version>
+    <title>Springboard CLI</title>
+    <authors>Springboard Team</authors>
+    <projectUrl>https://gitlab.amer.gettywan.com/springboard/springboard_cli</projectUrl>
+    <tags>springboardcli</tags>
+    <summary>Springboard Command Line Tool</summary>
+    <description>Unlimited Power! Tiny, itty bitty living space.</description>
+    <dependencies>
+      <dependency id="python3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

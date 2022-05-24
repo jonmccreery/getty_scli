@@ -1,0 +1,13 @@
+image: ruby:2.1
+before_script:
+  - gem install rubocop
+  - gem install rspec-puppet
+  - gem install puppet
+  - gem install fpm
+  - gem install puppet-lint
+  - gem install puppetlabs_spec_helper
+  - gem install metadata-json-lint
+rspec:
+  script:
+    - rake syntax
+    - rake spec
